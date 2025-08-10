@@ -2,6 +2,6 @@ pytest
 uvicorn
 fastapi
 httpx
-scikit-learn
+scikit-learn==1.1.3
 pandas
 numpy==1.24.4
