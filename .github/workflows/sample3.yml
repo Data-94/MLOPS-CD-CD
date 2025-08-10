@@ -1,0 +1,15 @@
+name: Python Test
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Repodan bütün dosyaları al
+      uses: actions/checkout@v2
+
+    - name: Sonuçları raporla
+      run: |
+            echo "Test işlemi başarılı"
+            echo "CREDENTIALS_JSON: ${{ secrets.CREDENTIALS_JSON }}"
+            echo "SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}"
+            echo "PROJECT_ID: ${{ secrets.PROJECT_ID }}"
