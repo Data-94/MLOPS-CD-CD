@@ -5,4 +5,4 @@ httpx
 numpy
 scikit-learn
 pandas
-numpy
+numpy==1.24.3
