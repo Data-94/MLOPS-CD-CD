@@ -1,15 +1,15 @@
-name: Python Test
+name: Python Test3
 on: [push]
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - name: Repodan bütün dosyaları al
+    - name: Repodan bütün dosyalari al
       uses: actions/checkout@v2
 
-    - name: Sonuçları raporla
+    - name: Sonuçlari raporla
       run: |
-            echo "Test işlemi başarılı"
+            echo "Test işlemi başarili"
             echo "CREDENTIALS_JSON: ${{ secrets.CREDENTIALS_JSON }}"
             echo "SERVICE_ACCOUNT: ${{ secrets.SERVICE_ACCOUNT }}"
             echo "PROJECT_ID: ${{ secrets.PROJECT_ID }}"
