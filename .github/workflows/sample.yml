@@ -1,0 +1,14 @@
+name: Python Test
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Adim 1
+      run: |
+        echo "Hello World"
+        echo "Bu bir test işlemidir"
+    - name: Adim 2
+      run: |
+        echo "Deneme"
+        echo "Bu bir test işlemidir"
