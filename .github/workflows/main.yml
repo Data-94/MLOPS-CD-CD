@@ -30,8 +30,8 @@ jobs:
 
     - name: Copy ML model
       run: |
-        gsutil cp gs://proje123/LR_model.pkl .
-        gsutil cp gs://proje123/knn_model.pkl .
+        gsutil cp gs://mlops-project123/LR_model.pkl .
+        gsutil cp gs://mlops-project123/knn_model.pkl .
         echo "Modeller indirildi"
 
     - name: Install dependencies
